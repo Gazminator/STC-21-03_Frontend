@@ -1,31 +1,43 @@
 <!DOCTYPE html>
-<HTML lang="en">
-    <HEAD> <!-- HEAD-->
+<html lang="en">
+    <head> <!-- HEAD-->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Продажа билетов в кино в Иннополисе.</title>
-    </HEAD>
-    <BODY>
-        <header><!-- "Шапка"-->
-            <a href="http://university.innopolis.ru/" target="_blank"><img src="images/Logo Innopolis University.svg"></a>
-            <nav>
-                <span>+7 (800) 355 12-56</span>
-                <span>kino@innopolis.ru</span>
-                <span>ул.Спортивная д.1</span>
-                <button>Заказать звонок</button>
-                <a href="#">EVENT DETAILS</a>
-                <a href="#">SPEAKERS</a>
-                <a href="#">SPONSORS</a>
-                <a href="#">PAST EVENTS</a>
-                <a href="#">CONTACTS</a>
+        <style>
+            ul.hr {
+                margin: 0;
+                padding: 4px;
+            }
+            ul.hr li {
+                display: inline;
+                margin-right: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <header id="top"><!-- "Шапка"-->
+            <a href="http://university.innopolis.ru/" target="_blank"><img src="images/Logo Innopolis University.svg" alt="Innopolis University Logo"></a>
+            <nav aria-labelledby="MainMenuLabel">
+                <ul class="hr">
+                    <li>+7 (800) 355 12-56</li>
+                    <li>kino@innopolis.ru</li>
+                    <li>ул.Спортивная д.1</li>
+                    <li><button>Заказать звонок</button></li>
+                    <li><a href="#p1">EVENT DETAILS</a></li>
+                    <li><a href="#p2">SPEAKERS</a></li>
+                    <li><a href="#p3">SPONSORS</a></li>
+                    <li><a href="#p4">PAST EVENTS</a></li>
+                    <li><a href="#contact">CONTACTS</a></li>
+                </ul>
             </nav>
             <div>
-                <span><i>Закажите билет в кино</i></span>
+                <span><h1>Закажите билет в кино</h1></span>
             </div>
-            <div><b>Всем покупателям подарок!</b></div>
-        </header>
+            <h2>Всем покупателям подарок!</h2>
+        </header> 
         <div> <!-- переходный блок-->
-            <b>Добро пожаловать!</b>
+            <h2>Добро пожаловать!</h2>
             <p>
                 <q>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                      Ut enim ad minim veniam.</q>
@@ -35,128 +47,185 @@
                     occaecat cupidatat non proident, sunt.</q>
             </p>
         </div>
-        <section> <!-- Блок "продажный"-->
-            <b>Почему мы?</b>
-            <div> <!-- Большие экраны-->
-                <img src="images/3yoqeQbkSg8 1.png" title="Большие экраны">
-                <p><b>Большие экраны</b><br>
+        <section id="p1"> <!-- Блок "продажный"-->
+            <h2>Почему мы?</h2>
+            <div> 
+                <img src="images/3yoqeQbkSg8 1.png" title="Большие экраны" alt="Изображение экрана кинозала">
+                <p><h3>Большие экраны</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-            <div> <!-- Объёмный звук-->
-                <img src="images/obemniy_zvuk-1200x900 1.png" title="Объёмный звук">
-                <p><b>Объёмный звук</b><br>
+            <div> 
+                <img src="images/obemniy_zvuk-1200x900 1.png" title="Объёмный звук" alt="Схематическое изображение направленных динамиков">
+                <p><h3>Объёмный звук</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-            <div> <!-- Удобные кресла-->
-                <img src="images/unnamed 1.png" title="Удобные кресла">
-                <p><b>Удобные кресла</b><br>
+            <div> 
+                <img src="images/unnamed 1.png" title="Удобные кресла" alt="Изображение кресел кинозала">
+                <p><h3>Удобные кресла</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-            <div> <!-- Уютная атмосфера-->
-                <img src="images/VXhJVtytwj8 1.png" title="Уютная атмосфера">
-                <p><b>Уютная атмосфера</b><br>
+            <div> 
+                <img src="images/VXhJVtytwj8 1.png" title="Уютная атмосфера" alt="Уютненько">
+                <p><h3>Уютная атмосфера</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-            <div> <!-- Полное погружение-->
-                <img src="images/72_osn1 1.png" title="Полное погружение">
-                <p><b>Полное погружение</b><br>
+            <div> 
+                <img src="images/72_osn1 1.png" title="Полное погружение" alt="Изображение людей в кинозале">
+                <p><h3>Полное погружение</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-            <div> <!-- Поцелуи на последних рядах-->
-                <img src="images/maxresdefault 1.png" title="Поцелуи на последних рядах">
-                <p><b>Поцелуи на последних рядах</b><br>
+            <div> 
+                <img src="images/maxresdefault 1.png" title="Поцелуи на последних рядах" alt="Непотребство">
+                <p><h3>Поцелуи на последних рядах</h3><br>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut<br> labore et dolore magna aliqua. Ut enim ad minim veniam. 
                 </p>
             </div>
-        </section>
-        <section> <!-- Выбор фильма-->
-            <b>Выбрите фильм</b>
-            <p>
-                Начало сеанса Название фильма Жанр<br>
-                10:00 Человек-паук Фантастика, боевик, приключения<br>
-                12:00 Собачья жизнь 2 Фэнтези, драма, комедия<br>
-                14:00 История игрушек-4 Мультфильм, фэнтези, комедия<br>
-                16:00 Люди в чёрном: Интернешнл Фантастика, боевик, комедия<br>
-            </p>
+        </section> 
+        <section> <!-- Выбор фильма. ТАБЛИЦА ТУТ-->
+            <h2 id="p2">Выберите фильм</h2>
+            <table border="1px" cellspacing="1" cellpadding="10" style="width: 800px;">
+                <thead>
+                <tr>
+                    <th colspan="2">Начало сеанса</th>
+                    <th>Название фильма</th>
+                    <th>Жанр</th>
+                </tr>
+                </thead>
+                <tfoot style="height: 50px; overflow: scroll">
+                    <tr>
+                        <td colspan="4" align="center">
+                            Демонстрация шагов 9-11, 19 - ТЗ-4:
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">&lt;colspan&gt; на 2 столбца</td>
+                        <td>Ячейка 2 Строки 1</td>
+                        <td rowspan="2">&lt;rowspan&gt; на 2 ячейки:
+                            <ul>
+                                Unordered list:
+                                <li type="square">1</li>
+                                <li>2</li>
+                                    <ul>
+                                        <li>2.1</li>
+                                        <li>2.2</li>
+                                    </ul>
+                                <li type="circle">3</li>
+                            </ul>
+                        </td>
+                    </tr>   
+                    <tr>
+                        <td>Ячейка 1 строки 2</td>
+                        <td>Ячейка 2 Строки 2</td>
+                        <td>Ячейка 3 Строки 2</td>
+                        
+                    </tr>
+                    <tr>
+                        <td>
+                            <ol reversed start="3" type="A">
+                                Oredered list:
+                                <li>Строка 1</li>
+                                <li>Строка 2:
+                                    <ol type="1">
+                                        <li>Вложенная строка 1</li>
+                                        <li>Вложенная строка 2</li>
+                                    </ol>
+                                </li>
+                                <li>Строка 3</li>
+                            </ol>
+                        </td>
+                        <td colspan="2">
+                            <dl>
+                                <dt>HTML</dt>
+                                <dd>Hyper text markup language</dd>
+                                <dt>CSS</dt>
+                                <dd>Cascading style sheets</dd>
+                            </dl>
+                        </td>
+                        <td>Ячейка 4 Строки 3</td>
+                    </tr>                        
+                    </tfoot>
+                <tbody>
+                <tr>
+                    <td>V</td>
+                    <td>10:00</td>
+                    <td>Человек-паук</td>
+                    <td>Фантастика, боевик, приключения.</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>12:00</td>
+                    <td>Собачья жизнь 2</td>
+                    <td>Фентези, драма, комедия.</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>14:00</td>
+                    <td>История игрушек 4</td>
+                    <td>Мультфильм, фентези, комедия.</td>
+                </tr>
+                <tr>
+                    <td>V</td>
+                    <td>16:00</td>
+                    <td>Люди в чёрном: интернешнл</td>
+                    <td>Фантастика, боевик, комедия.</td>
+                </tr>                
+                </tbody>
+            </table>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam.</p>
         </section>
-        <section> <!-- ПОДАРКИ-->
-            <b>Подарок каждому!</b>
+        <section id="p3"> <!-- ПОДАРКИ-->
+            <h2>Подарок каждому!</h2>
             <span>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam. Ut pharetra sit amet aliquam id diam maecenas.</p> 
-<p>Nunc vel risus commodo viverra maecenas accumsan. Morbi enim nunc faucibus a. Mauris commodo quis imperdiet massa.Sed elementum tempus egestas sed sed risus pretium quam vulputate. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus.</p> 
-<p>Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam. Ut pharetra sit amet aliquam id diam maecenas. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Facilisi cras fermentum odio eu feugiat pretium nibh. Eu nisl nunc mi ipsum. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum.</p>
+            <p>Nunc vel risus commodo viverra maecenas accumsan. Morbi enim nunc faucibus a. Mauris commodo quis imperdiet massa.Sed elementum tempus egestas sed sed risus pretium quam vulputate. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus.</p> 
+            <p>Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam. Ut pharetra sit amet aliquam id diam maecenas. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Aliquam vestibulum morbi blandit cursus risus at ultrices mi tempus. Facilisi cras fermentum odio eu feugiat pretium nibh. Eu nisl nunc mi ipsum. Nibh sit amet commodo nulla facilisi nullam vehicula ipsum.</p>
             </span>
             <button>Получить подарок</button>
-        </section>
+        </section> 
         <section> <!-- фильмы-->
-            <p><b>Фильмы</b><br>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            <h2>Фильмы</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam.</p>
                 <nav>
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/522941/"><img src="images/Survived.png"> Выживший</a>
-                    <!-- Охотник Хью Гласс серьезно ранен на неизведанных просторах американского Дикого Запада. Товарищ Хью по отряду 
-                    покорителей новых земель Джон Фицжеральд предательски оставляет его умирать в одиночестве. Теперь у Гласса осталось 
-                    только одно оружие – его сила воли. Он готов бросить вызов первобытной природе, суровой зиме и враждебным племенам 
-                    индейцев, только чтобы выжить и отомстить Фицжеральду.-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/900052/"><img src="images/Ice.png"> Лёд</a>
-                    <!--С самого детства Надя верила в чудеса. Она представляла себе, как выходит на лёд под овации публики и танцует 
-                    свой самый красивый танец. И вот, благодаря вере и упорству, Надя становится знаменитой фигуристкой. Но когда ее 
-                    мечты о громких победах, красивой жизни и прекрасном принце уже, кажется, готовы исполниться, судьба преподносит ей 
-                    настоящее испытание. И чтобы его пройти, нужно будет снова, как в детстве, поверить в мечту. Ведь, может быть, победа не 
-                    всегда должна быть громкой, а прекрасный принц не обязательно передвигается на белом коне?-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/841700/"><img src="images/Martian.png"> Марсианин</a>
-                    <!-- Марсианская миссия «Арес-3» в процессе работы была вынуждена экстренно покинуть планету из-за надвигающейся песчаной 
-                        бури. Инженер и биолог Марк Уотни получил повреждение скафандра во время песчаной бури. Сотрудники миссии, посчитав его 
-                        погибшим, эвакуировались с планеты, оставив Марка одного.-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/1162604/"><img src="images/Sputnik.png">Спутник</a>
-                    <!-- СССР, 1983 год. На Землю возвращается космический аппарат, но от людей скрывают, что из двух космонавтов живым можно 
-                        считать только одного. Что произошло на борту, остается загадкой, но факты указывают на то, что космонавты столкнулись
-                         с новой формой жизни, и выживший вернулся не совсем один. На засекреченную военную базу, где космонавт Константин 
-                         Вешняков содержится под строгим контролем и наблюдением, привозят нейрофизиолога Татьяну Климову, чтобы она оценила 
-                         его состояние.-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/1188248/"><img src="images/Kalashnikov.png">Калашников</a>
-                    <!-- Калашников. Все знают эту фамилию, но не все знают, какой долгий и тернистый путь прошёл парень-самоучка, чтобы в 28 
-                    лет создать легендарный автомат АК-47, который по сей день является символом оружейной мысли нашего времени.-->
-                    <a target="_blank" href="hhttps://www.kinopoisk.ru/film/601933/"><img src="images/Territory.png">Территория</a>
-                    <!-- Территория - это место, где люди проверяются на прочность. Необозримые пространства, где тундра встречается с ледяными 
-                        торосами Ледовитого океана. Суровый русский север, которому способны бросить вызов немногие. Геолог Илья Чинков, 
-                        одержимый идеей найти легендарное золото Территории, собирает команду смельчаков, готовых поставить на карту все, 
-                        включая собственные жизни.-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/447301/"><img src="images/Inception.png">Начало</a>
-                    <!-- Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин 
-                        подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным 
-                        игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и 
-                        лишили всего, что он когда-либо любил.-->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/586397/"><img src="images/Negro.png">Джанго Освобождённый</a>
-                    <!--Эксцентричный охотник за головами, также известный как Дантист, промышляет отстрелом самых опасных преступников. 
-                        Работенка пыльная, и без надежного помощника ему не обойтись. Но как найти такого и желательно не очень дорогого? 
-                        Освобождённый им раб по имени Джанго – прекрасная кандидатура. Правда, у нового помощника свои мотивы – кое с чем 
-                        надо сперва разобраться. -->
-                    <a target="_blank" href="https://www.kinopoisk.ru/film/966995/"><img src="images/Alive.png">Живое</a>
-                    <!-- Группа исследователей с международного космического корабля обнаруживает жизнь на Марсе. Они еще не подозревают, 
-                        какие события повлечет за собой их открытие.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/522941/"><img src="images/Survived.png" alt="Постер фильма Выживший"> Выживший</a>
+                    <!-- Охотник Хью Гласс серьезно ранен на неизведанных просторах американского Дикого Запада. Товарищ Хью по отряду покорителей новых земель Джон Фицжеральд предательски оставляет его умирать в одиночестве. Теперь у Гласса осталось только одно оружие – его сила воли. Он готов бросить вызов первобытной природе, суровой зиме и враждебным племенам индейцев, только чтобы выжить и отомстить Фицжеральду.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/900052/"><img src="images/Ice.png" alt="Постер фильма Лёд"> Лёд</a>
+                    <!--С самого детства Надя верила в чудеса. Она представляла себе, как выходит на лёд под овации публики и танцует свой самый красивый танец. И вот, благодаря вере и упорству, Надя становится знаменитой фигуристкой. Но когда ее мечты о громких победах, красивой жизни и прекрасном принце уже, кажется, готовы исполниться, судьба преподносит ей настоящее испытание. И чтобы его пройти, нужно будет снова, как в детстве, поверить в мечту. Ведь, может быть, победа не всегда должна быть громкой, а прекрасный принц не обязательно передвигается на белом коне?-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/841700/"><img src="images/Martian.png" alt="Постер фильма Марсианин"> Марсианин</a>
+                    <!-- Марсианская миссия «Арес-3» в процессе работы была вынуждена экстренно покинуть планету из-за надвигающейся песчаной бури. Инженер и биолог Марк Уотни получил повреждение скафандра во время песчаной бури. Сотрудники миссии, посчитав его погибшим, эвакуировались с планеты, оставив Марка одного.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/1162604/"><img src="images/Sputnik.png" alt="Постер фильма Спутник">Спутник</a>
+                    <!-- СССР, 1983 год. На Землю возвращается космический аппарат, но от людей скрывают, что из двух космонавтов живым можно считать только одного. Что произошло на борту, остается загадкой, но факты указывают на то, что космонавты столкнулись с новой формой жизни, и выживший вернулся не совсем один. На засекреченную военную базу, где космонавт Константин Вешняков содержится под строгим контролем и наблюдением, привозят нейрофизиолога Татьяну Климову, чтобы она оценила его состояние.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/1188248/"><img src="images/Kalashnikov.png" alt="Постер фильма Калашников">Калашников</a>
+                    <!-- Калашников. Все знают эту фамилию, но не все знают, какой долгий и тернистый путь прошёл парень-самоучка, чтобы в 28 лет создать легендарный автомат АК-47, который по сей день является символом оружейной мысли нашего времени.-->
+                    <a target="_blank" href="hhttps://www.kinopoisk.ru/film/601933/"><img src="images/Territory.png" alt="Постер фильма Территория">Территория</a>
+                    <!-- Территория - это место, где люди проверяются на прочность. Необозримые пространства, где тундра встречается с ледяными торосами Ледовитого океана. Суровый русский север, которому способны бросить вызов немногие. Геолог Илья Чинков, одержимый идеей найти легендарное золото Территории, собирает команду смельчаков, готовых поставить на карту все, включая собственные жизни.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/447301/"><img src="images/Inception.png" alt="Постер фильма">Начало</a>
+                    <!-- Кобб – талантливый вор, лучший из лучших в опасном искусстве извлечения: он крадет ценные секреты из глубин подсознания во время сна, когда человеческий разум наиболее уязвим. Редкие способности Кобба сделали его ценным игроком в привычном к предательству мире промышленного шпионажа, но они же превратили его в извечного беглеца и лишили всего, что он когда-либо любил.-->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/586397/"><img src="images/Negro.png"  alt="Постер фильма Джанго освобождённый">Джанго Освобождённый</a>
+                    <!--Эксцентричный охотник за головами, также известный как Дантист, промышляет отстрелом самых опасных преступников. Работенка пыльная, и без надежного помощника ему не обойтись. Но как найти такого и желательно не очень дорогого? Освобождённый им раб по имени Джанго – прекрасная кандидатура. Правда, у нового помощника свои мотивы – кое с чем надо сперва разобраться. -->
+                    <a target="_blank" href="https://www.kinopoisk.ru/film/966995/"><img src="images/Alive.png"  alt="Постер фильма Живое">Живое</a>
+                    <!-- Группа исследователей с международного космического корабля обнаруживает жизнь на Марсе. Они еще не подозревают, какие события повлечет за собой их открытие.-->
                 </nav>
             <!-- таблица с ссылками на фильмы-->
-        </section>
-        <section> <!-- Товары--> 
-            <b>Товары</b>
+        </section> 
+        <section id="p4"> <!-- Товары--> 
+            <h2>Товары</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                  Nibh mauris cursus mattis molestie a iaculis at. Vel quam elementum pulvinar etiam non quam.</p>
                  <nav>
-                     <img src="images/Coca-cola.png"> <b>Coca-cola</b>
-                     <img src="images/Poster.png"><b>Брелок "Железный человек"</b>
-                     <img src="images/40073568b 1.png"><b>Постер "Мстители"</b>
+                     <img src="images/Coca-cola.png"  alt="Изображение напитка Coca-Cola"> <b>Coca-cola</b>
+                     <img src="images/Poster.png"  alt="Изображение брелка"><b>Брелок "Железный человек"</b>
+                     <img src="images/40073568b 1.png"  alt="Постер фильма Мстители"><b>Постер "Мстители"</b>
                 </nav>
-        </section>
+        </section> 
         <section> <!-- Отзывы--> 
-            <b>Отзывы</b>
+            <h2>Отзывы</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nibh mauris cursus mattis 
                 molestie a iaculis at. Vel quam elementum pulvinar etiam non quam.</p>
                 <div>
@@ -174,30 +243,50 @@
                     <blockquote>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
                          magna aliqua. </blockquote>
                 </div>
-        </section>
+        </section> 
         <section> <!-- Обратная связь-->
-            <b>Обратная связь</b>
-        </section>
-        <section></section> <!-- МЕСТО ДЛЯ КАРТЫ-->
+            <h2>Обратная связь</h2>
+            <fieldset>
+            <form action="order.php" method="post" name="form">
+                <input placeholder="Полное имя" type="text" name="Name" maxlength="15" required><br>
+                <input list="place" placeholder="Выбрать место" name="Place" required><br>
+                    <datalist id="place">
+                        <option value="Место № 1"><option value="Место № 2"><option value="Место № 3"><option value="Место № 4"><option value="Место № 5"><option value="Место № 6"><option value="Место № 7"><option value="Место № 8"><option value="Место № 9"><option value="Место № 10">                        
+                    </datalist>
+                <input type="email" placeholder="Введите e-mail" name="email" required><br>
+                <textarea style="resize: none;" placeholder="Отзыв. Не больше 500 символов." cols="40" rows="5" maxlength="500" name="Text"></textarea><br>
+                <input type="file" placeholder="Выберите файл"><br>
+                <input type="checkbox" name="PersonalData" required>
+                <label for="PersonalData">Даю согласие на обработку персональных данных.</label><br>
+                <input type="submit" value="Заказать">
+            </form>
+        </fieldset>
+            <input type="submit" value="Заказать">
+            <button form="form">Заказать</button>
+        </section> 
+        <section><!-- МЕСТО ДЛЯ КАРТЫ-->
+        </section> 
         <footer> <!-- Подвал-->
             <div>
-            Innopolis.img <br>
+                <a href="http://university.innopolis.ru/" target="_blank"><img src="images/Logo Innopolis University.svg" alt="Innopolis University Logo"></a>
+                <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                </p>
             </div>
             <nav>Site<br>
-                <a href="#">EVENT DETAILS</a>
-                <a href="#">SPEAKERS</a>
-                <a href="#">SPONSORS</a>
-                <a href="#">PAST EVENTS</a>
-                <a href="#">CONTACTS</a>
+                <a href="#top">EVENT DETAILS</a>
+                <a href="#top">SPEAKERS</a>
+                <a href="#top">SPONSORS</a>
+                <a href="#top">PAST EVENTS</a>
+                <a href="#top">CONTACTS</a>
             </nav>
-            <div>
+            <div id="contact">
                 CONTACT<br>
                 +7 (800) 355 12-56 kino@innopolis.ru 420500, г. Иннополис ул.Университетская, д.1 Как добраться Все контакты
             </div>
+            <span>Copyright  @ 2020 Innopolis University . All Rights Reserved.</span> 
         </footer>
-        <span>Copyright  @ 2020 Innopolis University . All Rights Reserved.</span>
-        <!-- практикуемся-->
-        
-    </BODY>
-</HTML>
+          
+
+    </body>
+</html>
